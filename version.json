@@ -1,0 +1,15 @@
+{
+  "version": "1.3.1",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.3.1/HerbSetup-1.3.1.exe",
+  "sha256": "afada88c35aa45379844e53b1166e454e2176bf9bdbeb455fd4e7a8308c747e2",
+  "published": "2026-10-09",
+  "notes": "Test update: Herb Studio now shows its version.",
+  "highlights": {
+    "features": [
+      "Herb Studio shows which Herb you have, under the Project panel"
+    ],
+    "fixes": [
+      "Office fire alarm families come from M: instead of the installer"
+    ]
+  }
+}
