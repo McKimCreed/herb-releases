@@ -1,13 +1,15 @@
 {
-  "version": "1.3.2",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.3.2/HerbSetup-1.3.2.exe",
-  "sha256": "8f127f45a5dbb04af862a2bdc51ef62ff90873dcf4743fb1419460ddd0fd22f7",
-  "published": "2026-10-09",
-  "notes": "Test update: a clearer message while Herb installs an update.",
+  "version": "1.3.3",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.3.3/HerbSetup-1.3.3.exe",
+  "sha256": "7a19db328f69fecd78fa78706335662c21e301d39f8faa56534097313d16ba07",
+  "published": "2026-10-15",
+  "notes": "Fire alarm designs follow the firm's installed design more closely",
   "highlights": {
     "features": [
-      "The update bar says plainly that Herb closes and reopens while it installs"
+      "Herb Studio tabs reuse the settings learned from the human design of the same floor"
     ],
-    "fixes": []
+    "fixes": [
+      "Ceiling speaker/strobes placed as Speaker Strobe, not Strobe Only; glass-fronted offices get a strobe where the existing design gives them one; NAC power supply goes in a closet-sized room when a floor has no electrical room; small rooms get one speaker/strobe and closets none; speaker/strobes labelled SV on plans"
+    ]
   }
 }
