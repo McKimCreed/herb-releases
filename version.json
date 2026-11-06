@@ -1,19 +1,15 @@
 {
-  "version": "1.4.3",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.3/HerbSetup-1.4.3.exe",
-  "sha256": "a3e25940697c781bdb7fe386f96da0bffc20c9c280b6acc8c4c39016d03c3e9e",
+  "version": "1.4.4",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.4/HerbSetup-1.4.4.exe",
+  "sha256": "9756640808b46d9f2975c585541a327b84f9a8a171f6cee2c537f3adbfd79e08",
   "published": "2026-11-06",
-  "notes": "Choose Revit 2025, 2026 or both when installing. Clearer existing fire alarm design check with one-click fixes. Simpler Herb ribbon.",
+  "notes": "Florida Building Code 8th and 9th Edition fire alarm cookbooks.",
   "highlights": {
     "features": [
-      "Install for Revit 2025, 2026 or both; updates keep the choice",
-      "Existing fire alarm design: Added by Herb vs Still missing, with Add missing device and Fix in Revit buttons",
-      "Herb Tools and Model Checks are one button each; More Tools joins Herb Tools; Unit Electrical has its own panel"
+      "Fire alarm cookbooks for Florida Building Code 8th Edition (2023): NFPA 72-2019, NFPA 101-2021",
+      "Fire alarm cookbooks for Florida Building Code 9th Edition (2026): NFPA 72-2022, NFPA 101-2024",
+      "A Florida model picks the edition in force (the 9th from December 31, 2026)"
     ],
-    "fixes": [
-      "A room's device no longer takes over the next room's installed device through the wall",
-      "Pull stations are no longer counted as beyond what the building needs",
-      "Place from PDF puts devices on the wall face and asks before using a plan that fits the unit badly"
-    ]
+    "fixes": []
   }
 }
