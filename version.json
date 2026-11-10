@@ -1,14 +1,19 @@
 {
-  "version": "1.4.5",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.5/HerbSetup-1.4.5.exe",
-  "sha256": "cd5261e591b7aa6694670891bbabf59d10b627d407ef8a27cf674f472255eacf",
-  "published": "2026-11-09",
-  "notes": "Florida designs list the other standards the Florida Fire Prevention Code adopts.",
+  "version": "1.4.6",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.6/HerbSetup-1.4.6.exe",
+  "sha256": "e9bce30417228ec58c13c4690ad9b314c1de190dfe0a8797fd2bf74dc9662164",
+  "published": "2026-11-10",
+  "notes": "Unit Electrical: conduit heights set before routing, extra home run feet, Plan / 3D link, N/A in the Device Matrix.",
   "highlights": {
     "features": [
-      "Florida fire alarm designs list NFPA 1, 70, 13, 90A, 92, 110 and 4 at the editions rule 69A-3.012 adopts with FBC 8th or 9th Edition",
-      "The QA/QC report shows them beside the code basis"
+      "Conduit tab: set in-wall, over-a-door, overhead and home run heights before routing, kept per project",
+      "Extra feet on home runs, added to their Feeder Length in the Device Matrix",
+      "Plan / 3D button switches between a unit floor plan and its 3D ISO view, carrying the selection",
+      "N/A in the Device Matrix pickers leaves a device as it is"
     ],
-    "fixes": []
+    "fixes": [
+      "An in-wall conduit run between two walls turns at the room corner instead of crossing the floor",
+      "The PDF helpers run Python by its full path"
+    ]
   }
 }
