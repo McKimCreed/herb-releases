@@ -1,19 +1,18 @@
 {
-  "version": "1.4.6",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.6/HerbSetup-1.4.6.exe",
-  "sha256": "e9bce30417228ec58c13c4690ad9b314c1de190dfe0a8797fd2bf74dc9662164",
+  "version": "1.4.7",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.7/HerbSetup-1.4.7.exe",
+  "sha256": "e98a9d59b0fe31bfbd59a6edf85130001af886dbb00ee4b6573cb226131243cb",
   "published": "2026-11-10",
-  "notes": "Unit Electrical: conduit heights set before routing, extra home run feet, Plan / 3D link, N/A in the Device Matrix.",
+  "notes": "Unit Electrical: plan and 3D select together, one-line corner connectors, conduit heights per level, door-aware in-wall runs, readable window.",
   "highlights": {
     "features": [
-      "Conduit tab: set in-wall, over-a-door, overhead and home run heights before routing, kept per project",
-      "Extra feet on home runs, added to their Feeder Length in the Device Matrix",
-      "Plan / 3D button switches between a unit floor plan and its 3D ISO view, carrying the selection",
-      "N/A in the Device Matrix pickers leaves a device as it is"
+      "A unit floor plan and its 3D ISO view select the same devices as you pick",
+      "One-line branches beyond right, up and down use the corner connectors"
     ],
     "fixes": [
-      "An in-wall conduit run between two walls turns at the room corner instead of crossing the floor",
-      "The PDF helpers run Python by its full path"
+      "Conduit heights are measured from the unit's own level, not Level 3",
+      "In-wall conduit goes over only for a door opening it passes, not every wall corner",
+      "Unit Electrical text is readable on every tab; long device names are no longer cut off"
     ]
   }
 }
