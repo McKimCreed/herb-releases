@@ -1,18 +1,13 @@
 {
-  "version": "1.4.7",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.7/HerbSetup-1.4.7.exe",
-  "sha256": "e98a9d59b0fe31bfbd59a6edf85130001af886dbb00ee4b6573cb226131243cb",
-  "published": "2026-11-10",
-  "notes": "Unit Electrical: plan and 3D select together, one-line corner connectors, conduit heights per level, door-aware in-wall runs, readable window.",
+  "version": "1.4.8",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.8/HerbSetup-1.4.8.exe",
+  "sha256": "3a36769119c0d217c8da95ede134159736f70ad06ffa4ccb271e3cb7df73667b",
+  "published": "2026-11-11",
+  "notes": "Herb Tools: SheetEmUp and Remove All Views, rebuilt from Bonus Tools.",
   "highlights": {
     "features": [
-      "A unit floor plan and its 3D ISO view select the same devices as you pick",
-      "One-line branches beyond right, up and down use the corner connectors"
+      "SheetEmUp makes sheets from a template sheet, duplicating or swapping each view, then numbers and names them,Remove All Views deletes views, sheets, DWGs and Revit links you tick, and counts what Revit refused"
     ],
-    "fixes": [
-      "Conduit heights are measured from the unit's own level, not Level 3",
-      "In-wall conduit goes over only for a door opening it passes, not every wall corner",
-      "Unit Electrical text is readable on every tab; long device names are no longer cut off"
-    ]
+    "fixes": []
   }
 }
