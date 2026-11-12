@@ -1,13 +1,15 @@
 {
-  "version": "1.4.8",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.8/HerbSetup-1.4.8.exe",
-  "sha256": "3a36769119c0d217c8da95ede134159736f70ad06ffa4ccb271e3cb7df73667b",
-  "published": "2026-11-11",
-  "notes": "Herb Tools: SheetEmUp and Remove All Views, rebuilt from Bonus Tools.",
+  "version": "1.4.9",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.9/HerbSetup-1.4.9.exe",
+  "sha256": "eb1c00990a271f4439c339cc01b1912917414ce250cb2dcbabb82edae1ae6259",
+  "published": "2026-11-12",
+  "notes": "Herb Tools box opens over Revit; Wire devices fills the Device Matrix and tags the unit; lighting wired switch-to-light.",
   "highlights": {
     "features": [
-      "SheetEmUp makes sheets from a template sheet, duplicating or swapping each view, then numbers and names them,Remove All Views deletes views, sheets, DWGs and Revit links you tick, and counts what Revit refused"
+      "Wire devices also writes the Device Matrix and tags the unit (device numbers, home-run circuits)"
     ],
-    "fixes": []
+    "fixes": [
+      "Herb Tools box opens over Revit, not on the main monitor; lighting is wired from the switch up to the light; device numbers stay the same when the matrix is rewritten; MEP bridge takes its port back after a pyRevit reload"
+    ]
   }
 }
