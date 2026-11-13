@@ -1,15 +1,13 @@
 {
-  "version": "1.4.9",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.9/HerbSetup-1.4.9.exe",
-  "sha256": "eb1c00990a271f4439c339cc01b1912917414ce250cb2dcbabb82edae1ae6259",
-  "published": "2026-11-12",
-  "notes": "Herb Tools box opens over Revit; Wire devices fills the Device Matrix and tags the unit; lighting wired switch-to-light.",
+  "version": "1.4.10",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.10/HerbSetup-1.4.10.exe",
+  "sha256": "c951acdc107780e7ded0ec232675d75f168a9ef898bfad757776f3852c15d40f",
+  "published": "2026-11-13",
+  "notes": "Fixes Sign in with Microsoft (AADSTS900144 in 1.4.9) and unit electrical in Revit 2026+.",
   "highlights": {
-    "features": [
-      "Wire devices also writes the Device Matrix and tags the unit (device numbers, home-run circuits)"
-    ],
+    "features": [],
     "fixes": [
-      "Herb Tools box opens over Revit, not on the main monitor; lighting is wired from the switch up to the light; device numbers stay the same when the matrix is rewritten; MEP bridge takes its port back after a pyRevit reload"
+      "Sign in with Microsoft works again; 1.4.9 shipped without the sign-in app ID. Route conduit, Wire devices, Device Matrix fill and tags no longer fail in Revit 2026+ with 'ElementId has no attribute IntegerValue'."
     ]
   }
 }
