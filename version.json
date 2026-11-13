@@ -1,13 +1,13 @@
 {
-  "version": "1.4.11",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.11/HerbSetup-1.4.11.exe",
-  "sha256": "f5808895f0a67a09be2e26280f9b422bbbab26e7b4af6680e8590ab7cc250ab0",
+  "version": "1.4.12",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.12/HerbSetup-1.4.12.exe",
+  "sha256": "428356aa841bc0900ad7b0f430657cc46d8b4774c4a72aa84d80d37494141d84",
   "published": "2026-11-13",
-  "notes": "Fixes Herb Tools opening a blank window instead of the tool box.",
+  "notes": "Herb Tools logs each click and shows errors in a dialog.",
   "highlights": {
     "features": [],
     "fixes": [
-      "Herb Tools, SheetEmUp and Remove All Views no longer fail with a blank pyRevit window (No module named Windows) when they are the first Herb window opened in a session."
+      "Herb Tools opens its box in front of pyRevit's output window, writes each step to %LOCALAPPDATA%\\HerbRevit\\herb-tools.log, and shows any failure in a Revit dialog instead of a blank window."
     ]
   }
 }
