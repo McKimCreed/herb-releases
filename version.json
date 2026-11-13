@@ -1,13 +1,15 @@
 {
-  "version": "1.4.12",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.12/HerbSetup-1.4.12.exe",
-  "sha256": "428356aa841bc0900ad7b0f430657cc46d8b4774c4a72aa84d80d37494141d84",
+  "version": "1.4.13",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.13/HerbSetup-1.4.13.exe",
+  "sha256": "e3426f28d0cec8b4e25e5d7e4cb53e86ebb29ac435ee16faff47a1251f1da2b4",
   "published": "2026-11-13",
-  "notes": "Herb Tools logs each click and shows errors in a dialog.",
+  "notes": "Fixes Herb Tools not opening (No module named herb_pins). Adds Revit 2027 and the Parameter Scheduler.",
   "highlights": {
-    "features": [],
+    "features": [
+      "Herb installs for Revit 2027. Parameter Scheduler joins the Herb Tools box."
+    ],
     "fixes": [
-      "Herb Tools opens its box in front of pyRevit's output window, writes each step to %LOCALAPPDATA%\\HerbRevit\\herb-tools.log, and shows any failure in a Revit dialog instead of a blank window."
+      "Herb Tools opens again; 1.4.11 and 1.4.12 shipped without herb_pins.py."
     ]
   }
 }
