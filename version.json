@@ -1,13 +1,13 @@
 {
-  "version": "1.4.10",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.10/HerbSetup-1.4.10.exe",
-  "sha256": "c951acdc107780e7ded0ec232675d75f168a9ef898bfad757776f3852c15d40f",
+  "version": "1.4.11",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.11/HerbSetup-1.4.11.exe",
+  "sha256": "f5808895f0a67a09be2e26280f9b422bbbab26e7b4af6680e8590ab7cc250ab0",
   "published": "2026-11-13",
-  "notes": "Fixes Sign in with Microsoft (AADSTS900144 in 1.4.9) and unit electrical in Revit 2026+.",
+  "notes": "Fixes Herb Tools opening a blank window instead of the tool box.",
   "highlights": {
     "features": [],
     "fixes": [
-      "Sign in with Microsoft works again; 1.4.9 shipped without the sign-in app ID. Route conduit, Wire devices, Device Matrix fill and tags no longer fail in Revit 2026+ with 'ElementId has no attribute IntegerValue'."
+      "Herb Tools, SheetEmUp and Remove All Views no longer fail with a blank pyRevit window (No module named Windows) when they are the first Herb window opened in a session."
     ]
   }
 }
