@@ -1,15 +1,15 @@
 {
-  "version": "1.4.13",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.13/HerbSetup-1.4.13.exe",
-  "sha256": "e3426f28d0cec8b4e25e5d7e4cb53e86ebb29ac435ee16faff47a1251f1da2b4",
-  "published": "2026-11-13",
-  "notes": "Fixes Herb Tools not opening (No module named herb_pins). Adds Revit 2027 and the Parameter Scheduler.",
+  "version": "1.4.14",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.14/HerbSetup-1.4.14.exe",
+  "sha256": "7d94709485cb4ed1f5fd6088c7bd7283c5d97adf8c80967bba093f00c621aac2",
+  "published": "2026-11-17",
+  "notes": "Room reasoning, two-storey rooms, split linked floors and corridors that turn.",
   "highlights": {
     "features": [
-      "Herb installs for Revit 2027. Parameter Scheduler joins the Herb Tools box."
+      "Click a room in a finished design to see why it has what it has, with Explain in plain words. A room drawn on two storeys (a gym, an auditorium) is designed once at its real height: wall devices on the lower plan, ceiling devices on the upper. Corridors that turn are designed leg by leg under NFPA 72 18.5.5.5."
     ],
     "fixes": [
-      "Herb Tools opens again; 1.4.11 and 1.4.12 shipped without herb_pins.py."
+      "Linked rooms on a split floor level (a few feet above the host level) are read instead of dropped. Lighting and power design a model whose lowest level has no rooms."
     ]
   }
 }
