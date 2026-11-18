@@ -1,15 +1,18 @@
 {
-  "version": "1.4.14",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.14/HerbSetup-1.4.14.exe",
-  "sha256": "7d94709485cb4ed1f5fd6088c7bd7283c5d97adf8c80967bba093f00c621aac2",
-  "published": "2026-11-17",
-  "notes": "Room reasoning, two-storey rooms, split linked floors and corridors that turn.",
+  "version": "1.4.15",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.15/HerbSetup-1.4.15.exe",
+  "sha256": "b3b01727e934ee6525207cbee9e92343e2f69f77fb37680c19865d3d59fbae81",
+  "published": "2026-11-18",
+  "notes": "Conduit: overhead only under the drawn ceiling, home-run line-up choice at the panel, faster routing.",
   "highlights": {
     "features": [
-      "Click a room in a finished design to see why it has what it has, with Explain in plain words. A room drawn on two storeys (a gym, an auditorium) is designed once at its real height: wall devices on the lower plan, ceiling devices on the upper. Corridors that turn are designed leg by leg under NFPA 72 18.5.5.5."
+      "Choose how home runs line up at the panel: across the panel, a horizontal line, or a vertical line",
+      "Overhead conduit runs only under the ceiling drawn as a Transparent filled region; elsewhere it follows the walls",
+      "Home runs stay in the wall until they reach a ceiling, then cross overhead"
     ],
     "fixes": [
-      "Linked rooms on a split floor level (a few feet above the host level) are read instead of dropped. Lighting and power design a model whose lowest level has no rooms."
+      "Conduit between side-by-side gang boxes is one piece instead of three",
+      "Conduit routing is about 3x faster"
     ]
   }
 }
