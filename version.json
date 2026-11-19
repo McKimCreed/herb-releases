@@ -1,18 +1,18 @@
 {
-  "version": "1.4.15",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.15/HerbSetup-1.4.15.exe",
-  "sha256": "b3b01727e934ee6525207cbee9e92343e2f69f77fb37680c19865d3d59fbae81",
-  "published": "2026-11-18",
-  "notes": "Conduit: overhead only under the drawn ceiling, home-run line-up choice at the panel, faster routing.",
+  "version": "1.4.16",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.16/HerbSetup-1.4.16.exe",
+  "sha256": "005a05f5749cd73513a9aae94ca2e8d5b7076d9415bbef7a99bee8204fe6532e",
+  "published": "2026-11-19",
+  "notes": "Conduit: below-window runs, feet-and-inch heights, editable conduit picks, plumb drops, Sync On/Off button.",
   "highlights": {
     "features": [
-      "Choose how home runs line up at the panel: across the panel, a horizontal line, or a vertical line",
-      "Overhead conduit runs only under the ceiling drawn as a Transparent filled region; elsewhere it follows the walls",
-      "Home runs stay in the wall until they reach a ceiling, then cross overhead"
+      "In-wall conduit passing a window runs below it at the new Below window height, out of the box bottoms",
+      "Conduit heights are typed and shown in feet and inches",
+      "Sync On/Off button turns the plan / 3D selection sync on or off"
     ],
     "fixes": [
-      "Conduit between side-by-side gang boxes is one piece instead of three",
-      "Conduit routing is about 3x faster"
+      "Selecting a conduit no longer selects its fixtures, so the run can be edited",
+      "Conduit drops come straight down into the box instead of slanting"
     ]
   }
 }
