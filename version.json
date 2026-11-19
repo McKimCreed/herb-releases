@@ -1,15 +1,14 @@
 {
-  "version": "1.4.17",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.17/HerbSetup-1.4.17.exe",
-  "sha256": "4e31700bf24ab48b620770a85ea559499bd27546a18a4a8c495961811f530c51",
+  "version": "1.4.18",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.18/HerbSetup-1.4.18.exe",
+  "sha256": "2047ad8c183490fea57f4564009ec4794366a7337400084f31cbf9b3448cc115",
   "published": "2026-11-19",
-  "notes": "Conduit: windows in thick and linked walls, gang boxes, drops inside the box.",
+  "notes": "Conduit: runs under windows follow the walls; runs to ceiling lights use the Overhead height.",
   "highlights": {
     "features": [],
     "fixes": [
-      "In-wall runs see windows on thick brick walls and in linked models, and go under them instead of through",
-      "Runs to the second device of a gang (ADJACENT) land in the gang box instead of hanging beside it",
-      "Runs sharing a box drop into its middle and stay inside it"
+      "Runs under a window follow the walls instead of cutting straight across the room",
+      "Runs to ceiling lights cross at the Overhead height and turn up or down into the light, instead of a fixed 10'-5\""
     ]
   }
 }
