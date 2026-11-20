@@ -1,13 +1,14 @@
 {
-  "version": "1.4.20",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.20/HerbSetup-1.4.20.exe",
-  "sha256": "b3ef20448ea866dac808f67aa7d4b326d157feb805e6abd79f786f5d93d1db75",
+  "version": "1.4.21",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.21/HerbSetup-1.4.21.exe",
+  "sha256": "e797b5e09e736f22b11425b23fd469da6416c46e00431173d3d49aedd8a6803e",
   "published": "2026-11-20",
-  "notes": "Conduit: fixes \"points too close\" error that stopped units from routing.",
+  "notes": "Plan / 3D selection sync: Sync On/Off works right away, and the next unit's devices are left alone.",
   "highlights": {
     "features": [],
     "fixes": [
-      "Conduit no longer fails with \"startPoint and endPoint are too close\" - tiny pieces are merged into the next bend"
+      "Sync On/Off turns the plan / 3D selection sync off right away (it used to need a Revit restart)",
+      "Picking or hiding the next unit's devices in a 3D view no longer selects or hides this unit's devices with the same number"
     ]
   }
 }
