@@ -1,14 +1,13 @@
 {
-  "version": "1.4.19",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.19/HerbSetup-1.4.19.exe",
-  "sha256": "2c42259a788f85e233e8eab0caf0951fbbe1dc09189d4a15c764f1cc5c92967a",
+  "version": "1.4.20",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.20/HerbSetup-1.4.20.exe",
+  "sha256": "b3ef20448ea866dac808f67aa7d4b326d157feb805e6abd79f786f5d93d1db75",
   "published": "2026-11-20",
-  "notes": "Conduit: square 90-degree bends, and runs sharing a path drawn side by side in lanes.",
+  "notes": "Conduit: fixes \"points too close\" error that stopped units from routing.",
   "highlights": {
     "features": [],
     "fixes": [
-      "Conduit turns 90 degrees instead of cutting at an angle; rises and drops stay plumb (angled walls keep their angle)",
-      "Home runs heading the same way lie side by side 2\" apart instead of on top of each other, and leave the panel without crossing"
+      "Conduit no longer fails with \"startPoint and endPoint are too close\" - tiny pieces are merged into the next bend"
     ]
   }
 }
