@@ -1,14 +1,14 @@
 {
-  "version": "1.4.18",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.18/HerbSetup-1.4.18.exe",
-  "sha256": "2047ad8c183490fea57f4564009ec4794366a7337400084f31cbf9b3448cc115",
-  "published": "2026-11-19",
-  "notes": "Conduit: runs under windows follow the walls; runs to ceiling lights use the Overhead height.",
+  "version": "1.4.19",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.19/HerbSetup-1.4.19.exe",
+  "sha256": "2c42259a788f85e233e8eab0caf0951fbbe1dc09189d4a15c764f1cc5c92967a",
+  "published": "2026-11-20",
+  "notes": "Conduit: square 90-degree bends, and runs sharing a path drawn side by side in lanes.",
   "highlights": {
     "features": [],
     "fixes": [
-      "Runs under a window follow the walls instead of cutting straight across the room",
-      "Runs to ceiling lights cross at the Overhead height and turn up or down into the light, instead of a fixed 10'-5\""
+      "Conduit turns 90 degrees instead of cutting at an angle; rises and drops stay plumb (angled walls keep their angle)",
+      "Home runs heading the same way lie side by side 2\" apart instead of on top of each other, and leave the panel without crossing"
     ]
   }
 }
