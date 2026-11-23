@@ -1,14 +1,15 @@
 {
-  "version": "1.4.21",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.21/HerbSetup-1.4.21.exe",
-  "sha256": "e797b5e09e736f22b11425b23fd469da6416c46e00431173d3d49aedd8a6803e",
-  "published": "2026-11-20",
-  "notes": "Plan / 3D selection sync: Sync On/Off works right away, and the next unit's devices are left alone.",
+  "version": "1.4.22",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.22/HerbSetup-1.4.22.exe",
+  "sha256": "e05b37f71e086124321e13c356c284b5d723c214ecfe6a496bae411174f9e8aa",
+  "published": "2026-11-23",
+  "notes": "Conduit: elbows at far more corners, so most runs show once in the conduit run schedule.",
   "highlights": {
     "features": [],
     "fixes": [
-      "Sync On/Off turns the plan / 3D selection sync off right away (it used to need a Revit restart)",
-      "Picking or hiding the next unit's devices in a 3D view no longer selects or hides this unit's devices with the same number"
+      "Conduit gets an elbow at every corner with room for one (Herb assumed elbows needed 7 in.; they take 2.3 in.)",
+      "A step of up to 2 in. at a device box moves the drop over instead of leaving a corner without an elbow",
+      "Home-run risers move onto their lane at the panel, so the corner above each gets an elbow"
     ]
   }
 }
