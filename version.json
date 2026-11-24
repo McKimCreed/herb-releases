@@ -1,15 +1,13 @@
 {
-  "version": "1.4.22",
-  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.22/HerbSetup-1.4.22.exe",
-  "sha256": "e05b37f71e086124321e13c356c284b5d723c214ecfe6a496bae411174f9e8aa",
-  "published": "2026-11-23",
-  "notes": "Conduit: elbows at far more corners, so most runs show once in the conduit run schedule.",
+  "version": "1.4.23",
+  "installer_url": "https://github.com/McKimCreed/herb-releases/releases/download/v1.4.23/HerbSetup-1.4.23.exe",
+  "sha256": "70070d5a939f91aafaad4e6f9b771f3318a6437819778f9d92f019506b1f44f4",
+  "published": "2026-11-24",
+  "notes": "Conduit: an in-wall run that crosses open floor goes overhead.",
   "highlights": {
     "features": [],
     "fixes": [
-      "Conduit gets an elbow at every corner with room for one (Herb assumed elbows needed 7 in.; they take 2.3 in.)",
-      "A step of up to 2 in. at a device box moves the drop over instead of leaving a corner without an elbow",
-      "Home-run risers move onto their lane at the panel, so the corner above each gets an elbow"
+      "An in-wall (IW) run whose route crosses more than 1 ft of open floor (a wall that stops short) runs at the overhead height instead of 5 ft"
     ]
   }
 }
